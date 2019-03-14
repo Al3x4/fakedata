@@ -255,40 +255,6 @@
       ]
     },
     {
-      "id": "sky-q",
-      "data": [
-        {
-          "headline": {
-            "todayValue": [
-              {
-                "name": "split1",
-                "y": 400
-              },
-              {
-                "name": "split2",
-                "y": 300
-              }
-            ],
-            "yesterdayValue": [
-              {
-                "name": "split1",
-                "y": 100
-              },
-              {
-                "name": "split2",
-                "y": 300
-              }
-            ],
-            "timestamp": 1550656565,
-            "peakValue": null,
-            "chartType": "PIE",
-            "title": "Sky Q",
-            "category": "GROUP_PLATFORM"
-          }
-        }
-      ]
-    },
-    {
       "id": "customers",
       "data": [
         {
@@ -339,57 +305,6 @@
       ]
     },
     {
-      "id": "news-views",
-      "data": [
-        {
-          "headline": {
-            "todayValue": [
-              {
-                "name": "split1",
-                "y": 400
-              },
-              {
-                "name": "split2",
-                "y": 300
-              }
-            ],
-            "yesterdayValue": [
-              {
-                "name": "split1",
-                "y": 100
-              },
-              {
-                "name": "split2",
-                "y": 300
-              }
-            ],
-            "timestamp": 1550656565,
-            "peakValue": null,
-            "chartType": "SPEEDO",
-            "title": "News Views",
-            "category": "DIGITAL"
-          },
-          "weeklyChart": {
-            "sun": [650, 759],
-            "mon": [701, 703],
-            "tue": [589, 602],
-            "wed": [123, 321],
-            "thu": [999, 1000],
-            "fri": [333, 444],
-            "sat": [567, 789]
-          },
-
-          "series": {
-            "title": "Series subcategory items",
-            "availableSplits": ["PROPOSITION", "TERRITORY", "STREAM-TYPE"],
-            "total": [[1550656565, 123], [1550656565, 124]],
-            "split1": [[1550656565, 13], [1550656565, 14]],
-            "split2": [[1550656565, 23], [1550656565, 24]]
-          }
-        }
-      ]
-    },
-    {
       "id": "broadband",
       "data": [
         {
@@ -401,39 +316,6 @@
             "chartType": "SPEEDO",
             "title": "Broadband Customers",
             "category": "COMMUNICATIONS"
-          },
-          "weeklyChart": {
-            "sun": 12345,
-            "mon": 1234,
-            "tue": 8753,
-            "wed": 98437,
-            "thu": 233,
-            "fri": 27891,
-            "sat": 32335
-          },
-          "toplist": {
-            "title": "Top subcategory items",
-            "availableSplits": ["LAST_WEEK", "LAST_MONTH", "ALL_TIME"],
-
-            "allTime": {
-              "data": [
-                {
-                  "rank": 1,
-                  "name": "Content Name 1",
-                  "description": "Total Social Media Help Tweets",
-                  "imageUrl": "http://placehold.it/500x200",
-                  "value": 353,
-                  "timestamp": 1550656565
-                }
-              ]
-            }
-          },
-          "series": {
-            "title": "Series subcategory items",
-            "availableSplits": ["PROPOSITION", "TERRITORY", "STREAM-TYPE"],
-            "total": [[1550656565, 123], [1550656565, 124]],
-            "split1": [[1550656565, 13], [1550656565, 14]],
-            "split2": [[1550656565, 23], [1550656565, 24]]
           }
         },
         {
@@ -444,124 +326,6 @@
             "peakValue": 32335,
             "chartType": "SPEEDO",
             "title": "Broadband Traffic",
-            "category": "COMMUNICATIONS"
-          },
-          "weeklyChart": {
-            "sun": 12345,
-            "mon": 1234,
-            "tue": 8753,
-            "wed": 98437,
-            "thu": 233,
-            "fri": 27891,
-            "sat": 32335
-          },
-
-          "series": {
-            "title": "Series subcategory items",
-            "availableSplits": ["PROPOSITION", "TERRITORY", "STREAM-TYPE"],
-            "total": [[1550656565, 123], [1550656565, 124]],
-            "split1": [[1550656565, 13], [1550656565, 14]],
-            "split2": [[1550656565, 23], [1550656565, 24]]
-          }
-        }
-      ]
-    },
-    {
-      "id": "talk",
-      "data": [
-        {
-          "headline": {
-            "todayValue": 12345,
-            "yesterdayValue": 54321,
-            "timestamp": 1550656565,
-            "peakValue": 32335,
-            "chartType": "SPEEDO",
-            "title": "Talk Customers",
-            "category": "COMMUNICATIONS"
-          },
-          "weeklyChart": {
-            "sun": 12345,
-            "mon": 1234,
-            "tue": 8753,
-            "wed": 98437,
-            "thu": 233,
-            "fri": 27891,
-            "sat": 32335
-          },
-
-          "series": {
-            "title": "Series subcategory items",
-            "availableSplits": ["PROPOSITION", "TERRITORY", "STREAM-TYPE"],
-            "total": [[1550656565, 123], [1550656565, 124]],
-            "split1": [[1550656565, 13], [1550656565, 14]],
-            "split2": [[1550656565, 23], [1550656565, 24]]
-          }
-        },
-        {
-          "headline": {
-            "todayValue": 12345,
-            "yesterdayValue": 54321,
-            "timestamp": 1550656565,
-            "peakValue": 32335,
-            "chartType": "SPEEDO",
-            "title": "Number of calls",
-            "category": "COMMUNICATIONS"
-          },
-          "weeklyChart": {
-            "sun": 12345,
-            "mon": 1234,
-            "tue": 8753,
-            "wed": 98437,
-            "thu": 233,
-            "fri": 27891,
-            "sat": 32335
-          },
-          "toplist": {
-            "title": "Top subcategory items",
-            "availableSplits": ["ALL_TIME"],
-
-            "allTime": {
-              "data": [
-                {
-                  "rank": 1,
-                  "name": "Content Name 1",
-                  "description": "Total Social Media Help Tweets",
-                  "imageUrl": "http://placehold.it/500x200",
-                  "value": 353,
-                  "timestamp": 1550656565
-                },
-                {
-                  "rank": 2,
-                  "name": "Content Name 2",
-                  "description": "Total Social Media Help Tweets",
-                  "imageUrl": "http://placehold.it/500x200",
-                  "value": 347,
-                  "timestamp": 1550656565
-                }
-              ]
-            }
-          },
-          "series": {
-            "title": "Series subcategory items",
-            "availableSplits": ["PROPOSITION", "TERRITORY", "STREAM-TYPE"],
-            "total": [[1550656565, 123], [1550656565, 124]],
-            "split1": [[1550656565, 13], [1550656565, 14]],
-            "split2": [[1550656565, 23], [1550656565, 24]]
-          }
-        }
-      ]
-    },
-    {
-      "id": "mobile",
-      "data": [
-        {
-          "headline": {
-            "todayValue": 12345,
-            "yesterdayValue": 54321,
-            "timestamp": 1550656565,
-            "peakValue": 32335,
-            "chartType": "SPEEDO",
-            "title": "Mobile SMS",
             "category": "COMMUNICATIONS"
           }
         }
