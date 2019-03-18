@@ -1,3 +1,4 @@
+
 {
   "categories": [
     {
@@ -173,6 +174,7 @@
                 }
               ]
             
+          }
           },
           "series": {
             "title": "Series subcategory items",
@@ -333,3 +335,4 @@
     }
   ]
 }
+
