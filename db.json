@@ -42,7 +42,7 @@
           },
           "toplist": {
             "title": "Top subcategory items",
-            "availableSplits": ["LAST_WEEK", "LAST_MONTH", "ALL_TIME"],
+            "availableOptions": ["LAST_WEEK", "LAST_MONTH", "ALL_TIME"],
             "lastWeek": {
               "data": [
                 {
@@ -179,9 +179,11 @@
           "series": {
             "title": "Series subcategory items",
             "availableSplits": ["PROPOSITION", "TERRITORY", "STREAM-TYPE"],
-            "total": [[1550656565, 123], [1550656565, 124]],
-            "split1": [[1550656565, 13], [1550656565, 14]],
-            "split2": [[1550656565, 23], [1550656565, 24]]
+            "data": [
+              {"name": "total", "data":[[1550656565, 123], [1550656565, 124]]},
+              {"name": "SkyGo", "data":[[1550656565, 13], [1550656565, 14]] },
+              {"name": "SkyQ", "data":[[1550656565, 23], [1550656565, 24]] }]
+
           }
         }
       ]
