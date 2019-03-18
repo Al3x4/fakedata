@@ -178,11 +178,11 @@
           },
           "series": {
             "title": "Series subcategory items",
-            "availableSplits": ["PROPOSITION", "TERRITORY", "STREAM-TYPE"],
+            "availableOptions": ["PROPOSITION", "TERRITORY", "STREAM-TYPE"],
             "data": [
-              {"name": "total", "data":[[1550656565, 123], [1550656565, 124]]},
-              {"name": "SkyGo", "data":[[1550656565, 13], [1550656565, 14]] },
-              {"name": "SkyQ", "data":[[1550656565, 23], [1550656565, 24]] }]
+              {"name": "total", "data":[[1550656565, 123], [1550676565, 124], [1550696565, 125]]},
+              {"name": "SkyGo", "data":[[1550656565, 13], [1550676565, 14],[1550696565, 125]] },
+              {"name": "SkyQ",  "data":[[1550656565, 23], [1550676565, 24],[1550696565, 125]] }]
 
           }
         }
